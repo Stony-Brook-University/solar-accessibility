@@ -1,0 +1,92 @@
+/* Focus state for all, except when hover state is active */
+:focus:not(:hover) {
+    background: #fff !important;
+    color: #900 !important;
+    border: 2px solid #900;
+}
+
+/* Accessibility improvements for readability and contrast */
+.EOPP_SCSECTIONCONTENTDARK,
+.EOPP_SCSECTIONFOLDERDARK {
+    background-color: #e4e4e4;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-bottom-color: #e4e4e4;
+    border-right-color: #e4e4e4;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+.EOPP_SCSECTIONCONTENT,
+.EOPP_SCSECTIONFOLDER {
+    background-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-bottom-color: #e4e4e4;
+    border-right-color: #e4e4e4;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+.SSSGROUPBOXRIGHTWBO {
+    color: rgb(0,0,0);
+    background-color: rgb(234, 234, 234);
+    border-color: #000;
+}
+
+.SSSGROUPBOXRIGHT {
+    color: #000;
+    background-color: transparent;
+    border: 0 none;
+}
+
+.SU_SSSGROUPBOXRIGHTLABEL {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.EOPP_SCSECTIONCONTENTLINK,
+.EOPP_SCSECTIONFOLDERLINK {
+    font-family: Arial, Verdana, sans-serif;;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    text-decoration: underline;
+}
+
+.EOPP_SCCHILDCONTENTLINK,
+.EOPP_SCCHILDFOLDERLINK,
+.EOPP_SCMORELINK {
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    text-decoration: underline;
+}
+.EOPP_SCSECTIONCONTENTLINK:hover,
+.EOPP_SCSECTIONFOLDERLINK:hover,
+.EOPP_SCCHILDCONTENTLINK:hover,
+.EOPP_SCCHILDFOLDERLINK:hover,
+.EOPP_SCMORELINK:hover {
+    color: #900;
+    text-decoration: underline;
+}
+
+.PTPAGELETHEADER {
+    background-color: #efefef;
+}
+
+.ptpgltlabel {
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px; 
+    color: #000;
+}
